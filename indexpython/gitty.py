@@ -15,8 +15,9 @@ driver.find_element(By.XPATH,"//input[@placeholder='Enter Password']").send_keys
 driver.find_element(By.XPATH,"//span[@class='p-button-label']").click()
 #//input[@placeholder='Enter Password']
 time.sleep(10)
-driver.find_element(By.XPATH,"//a[@class='toogle-icon full-content']")
-driver.find_element(By.CLASS_NAME,'paragrapgh-text-3 active')
+driver.find_element(By.XPATH,"//div[@class='hide-show-element']").click()
+
+driver.find_element(By.XPATH,'//body[1]/app-root[1]/app-features[1]/div[1]/div[1]/app-side-navigation[1]/div[1]/div[1]/p-tree[1]/div[1]/div[1]/ul[1]/p-treenode[4]/li[1]').click()
 time.sleep(10)
 #//p[@class='paragraph-text-3 active']
 
