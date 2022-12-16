@@ -20,8 +20,11 @@ time.sleep(15)
 merchantlist = driver.find_elements(By.CLASS_NAME ,"flex align-items-center")
 print("this is the number of merchants", len(merchantlist))
 time.sleep(10)
-driver.quit()
-driver.close()
-#//p[@class='paragraph-text-3 active']
+driver.execute_script("window.scrollBy(0,2000)","")
+time.sleep(4)
+
+#driver.quit()
+# driver.close()
+#//p[@class='paragraph-text-3 active']LE
 
 
